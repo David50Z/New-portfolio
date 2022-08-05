@@ -271,14 +271,15 @@
 <canvas id="bg" class:invisible={core.invisible} class:gone={core.gone}>
 
 </canvas>
-
-<div id="navigation">
-	<div id="background"></div>
+{#if core.buttons}
+<div id="navigation" class:noButton={core.buttons === false}> 
+	<div id="background" class:noButton={core.buttons === false}></div>
 	<h1 id="AboutMeClass" class="nav-item" class:noButton={core.buttons === false} on:click={(e) => subjects(e, 'about me')}>About me</h1>
 	<h1 id="SkillsClass" class="nav-item" class:noButton={core.buttons === false} on:click={(e) => subjects(e, "skills")}>Skills</h1>
 	<h1 id="ContactClass" class="nav-item" class:noButton={core.buttons === false} on:click={(e) => subjects(e, "contact")}>Contact</h1>
 	<h1 id="ProjectsClass" class="nav-item" class:noButton={core.buttons === false} on:click={(e) => subjects(e, "projects")}>Projects</h1>
 </div>
+{/if}
 
 {#if core.invisible && core.page === 'about me'}
 	<AboutMe />

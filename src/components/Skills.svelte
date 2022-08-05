@@ -190,6 +190,7 @@
     margin: 0 auto;
     color: white;
     cursor: pointer;
+    z-index: 10;
 }
 
 @media screen and (max-width: 1100px) {
