@@ -1,0 +1,153 @@
+<script>
+    import * as THREE from 'three';
+    import Core from '../stores/Core'
+    import {get} from 'svelte/store'
+    import Transition from '../hooks/Transition'
+
+
+
+    let visible = true
+    let core = {}
+
+    let height = window.innerHeight
+    console.log(height)
+
+    Core.subscribe((data) => {
+        core = data
+    })
+
+    const back = () => {
+        visible = true
+        setTimeout(() => {
+            Transition()
+        }, 1200)
+    }
+
+    setTimeout(() => {
+        visible = false
+        Core.update(cores => {
+            let data = cores
+            data.brighten = false
+			
+            return data
+        })
+    }, 2000);
+
+
+
+</script>
+
+<main class:invisible={visible === false}>
+    <div id="mainContainer">
+        <div id="netflixContainer" class="projectContainer">
+            <div class="background"></div>
+            <h2 class="projectTitle" >Netflix imitation</h2>
+            <a href="https://david50z.github.io/Project-2/">
+                <img class="projectPic" src="projects/Screenshot (173).png" alt="netflix imitation pic">
+            </a>
+        </div>
+
+        <div id="ICBINP" class="projectContainer">
+            <div class="background"></div>
+            <h2 class="projectTitle" >Make your own adventure game</h2>
+            <a href="https://icbinp.github.io/ICBINP-Client/">
+                <img class="projectPic" src="projects/Screenshot (218).png" alt="Make your own adventure game pic">
+            </a>
+        </div>
+
+        <div id="toDoList" class="projectContainer">
+            <div class="background"></div>
+            <h2 class="projectTitle" >3D To do list</h2>
+            <a href="https://deft-moonbeam-e0bc2c.netlify.app/">
+                <img class="projectPic" src="projects/Screenshot (219).png" alt="toDoList pic">
+            </a>
+        </div>
+
+
+        <h1 id="back" on:click={back}>back</h1>
+    </div>
+
+</main>
+
+<style>
+    main {
+        background-image: url('/imgs/broken glass background.jpg');
+        background-size: 100% 100% ;
+        position: absolute;
+        opacity: 0;
+        transition: 1s;
+        z-index: 5;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    #mainContainer {
+        position:absolute;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+
+    .projectContainer {
+        position: relative;
+        margin: 30px;
+        transition: 0.5s;
+    }
+
+    .background {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 6;
+        background: black;
+        opacity: 0;
+        transition: 0.5s
+    }
+
+    .projectContainer:hover .background {
+        opacity: 0.5
+    }
+
+    #netflixContainer:hover .projectTitle {
+        opacity: 1
+    }
+
+    #ICBINP:hover .projectTitle {
+        opacity: 1
+    }
+
+    #toDoList:hover .projectTitle {
+        opacity: 1
+    }
+
+    .projectTitle {
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        color: white;
+        transition: 0.5s;
+        z-index: 10;
+    }
+
+    #back {
+        text-align: center;
+        color: white;
+        font-size: 50px;
+        cursor: pointer;
+    }
+
+
+
+    .projectPic {
+        width: 400px
+    }
+
+    .invisible {
+        opacity: 1
+    }
+</style>
