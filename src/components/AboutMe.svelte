@@ -119,6 +119,7 @@
         left: 50%;
         transform: translate(-50%, -95%);
         cursor: pointer;
+        font-family: 'Courier New', monospace;
     }
 
     .invisible {
@@ -131,6 +132,10 @@
             line-height: 30pt;
             font-size: 20px;
         }
+
+        #back {
+            top: 97%
+        }
     }
 
     @media only screen and (max-width: 1100px) {
@@ -140,7 +145,7 @@
         }
 
         #back {
-
+            top: 97%
         }
     }
 
@@ -200,8 +205,8 @@
 
         #back {
             margin: 0;
-            margin-top: 10px;
-            font-size: 45px;
+            margin-top: 20px;
+            font-size: 35px;
         }
     }
 </style>

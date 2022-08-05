@@ -86,6 +86,10 @@
         width: 100%;
     }
 
+    .cm-item {
+        font-family: 'Inconsolata', monospace;
+    }
+
     a {
         color: rgb(52, 77, 218)
     }
@@ -110,6 +114,7 @@
         left: 50%;
         transform: translateX(-50%);
         cursor: pointer;
+        font-family: 'Inconsolata', monospace;
     }
 
     .invisible {

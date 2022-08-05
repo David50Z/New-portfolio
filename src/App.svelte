@@ -336,33 +336,39 @@
 
 	.nav-item {
 		margin-top: 7px;
+		font-family: 'Source Code Pro', monospace;
+		color: white
+	}
+
+	.nav-item:hover {
+		color: rgb(160, 158, 158)
 	}
 
 	#AboutMeClass {
 		z-index: 4;
 		position: relative;
-		color: white;
+		
 		cursor: pointer;
 	}
 
 	#SkillsClass {
 		z-index: 4;
 		position: relative;
-		color: white;
+		
 		cursor: pointer;
 	}
 
 	#ContactClass {
 		z-index: 4;
 		position: relative;
-		color: white;
+		
 		cursor: pointer;
 	}
 
 	#ProjectsClass {
 		z-index: 4;
 		position: relative;
-		color: white;
+		
 		cursor: pointer;
 	}
 

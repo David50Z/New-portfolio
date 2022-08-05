@@ -40,27 +40,32 @@
 <main class:invisible={visible === false}>
     <div id="mainContainer">
         <div id="netflixContainer" class="projectContainer">
-            <div class="background"></div>
-            <h2 class="projectTitle" >Netflix imitation</h2>
             <a href="https://david50z.github.io/Project-2/">
-                <img class="projectPic" src="projects/Screenshot (173).png" alt="netflix imitation pic">
+                <div class="background"></div>
+                <h2 class="projectTitle" >Netflix imitation</h2>
             </a>
+
+                <img class="projectPic" src="projects/Screenshot (173).png" alt="netflix imitation pic">
+
         </div>
 
         <div id="ICBINP" class="projectContainer">
-            <div class="background"></div>
-            <h2 class="projectTitle" >Make your own adventure game</h2>
             <a href="https://icbinp.github.io/ICBINP-Client/">
-                <img class="projectPic" src="projects/Screenshot (218).png" alt="Make your own adventure game pic">
+                <div class="background"></div>
+                <h2 class="projectTitle" >Make your own adventure game</h2>
             </a>
+                <img class="projectPic" src="projects/Screenshot (218).png" alt="Make your own adventure game pic">
+
         </div>
 
         <div id="toDoList" class="projectContainer">
-            <div class="background"></div>
-            <h2 class="projectTitle" >3D To do list</h2>
             <a href="https://deft-moonbeam-e0bc2c.netlify.app/">
-                <img class="projectPic" src="projects/Screenshot (219).png" alt="toDoList pic">
+                <div class="background"></div>
+                <h2 class="projectTitle" >3D To do list</h2>
             </a>
+
+                <img class="projectPic" src="projects/Screenshot (219).png" alt="toDoList pic">
+
         </div>
 
 
@@ -132,6 +137,7 @@
         color: white;
         transition: 0.5s;
         z-index: 10;
+        font-family: 'Nanum Gothic Coding', monospace;
     }
 
     #back {
@@ -139,6 +145,7 @@
         color: white;
         font-size: 50px;
         cursor: pointer;
+        font-family: 'Nanum Gothic Coding', monospace;
     }
 
 

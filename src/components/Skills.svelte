@@ -160,13 +160,15 @@
     left: 10%;
     transform: translate(-5%, -0%);
     z-index: 10;
-    color: black
+    color: black;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .skill-item {
     display:inline-block;
     position: relative;
     margin-top: 10px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -184,13 +186,14 @@
 
 #back {
     position: absolute;
-    bottom: 0;
+    bottom: 5px;
     left: 50%;
     transform: translateX(-50%);
     margin: 0 auto;
     color: white;
     cursor: pointer;
     z-index: 10;
+    font-family: 'Quicksand', sans-serif;
 }
 
 @media screen and (max-width: 1100px) {
