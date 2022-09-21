@@ -49,6 +49,16 @@
 
         </div>
 
+        <div id="dog-search" class="projectContainer">
+            <a href="https://dog-search-app.herokuapp.com/client">
+                <div class="background"></div>
+                <h2 class="projectTitle" >Dog-search-app</h2>
+            </a>
+
+                <img class="projectPic" src="projects/dog-search-app.herokuapp.com_client.png" alt="Dog-search-app pic">
+
+        </div>
+
         <div id="ICBINP" class="projectContainer">
             <a href="https://icbinp.github.io/ICBINP-Client/">
                 <div class="background"></div>
@@ -117,6 +127,10 @@
     }
 
     #netflixContainer:hover .projectTitle {
+        opacity: 1
+    }
+
+    #dog-search:hover .projectTitle {
         opacity: 1
     }
 
