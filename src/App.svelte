@@ -298,12 +298,18 @@
 {/if}
 
 <style>
+
+	
+
 	canvas {
+		overflow-y: hidden;
     	transition: opacity 0.5s;
 		position: fixed;
 		top: 0;
 		left: 0;
 		z-index: 3;
+		height: 100%;
+		
 	}
 
 	.invisible {
@@ -321,9 +327,10 @@
 		justify-content: space-around;
 		position:absolute;
 		bottom: 0px;
-		height: 7%;
+		height: 100px;
 		width: 100%;
 		z-index: 5;
+		overflow-y: hidden;
 	}
 
 	#background {
@@ -335,9 +342,11 @@
 	}
 
 	.nav-item {
-		margin-top: 7px;
+		margin-top: 10px;
 		font-family: 'Source Code Pro', monospace;
-		color: white
+		color: white;
+		top: 50%;
+		transform: translateY(-50%);
 	}
 
 	.nav-item:hover {
@@ -379,6 +388,13 @@
 	@media screen and (max-width: 700px) {
 		.nav-item {
 			font-size: 17px;
+
+			top: 50%;
+			transform: translateY(-50%);
+		}
+
+		#navigation {
+			height: 60px;
 		}
 	}
 </style>

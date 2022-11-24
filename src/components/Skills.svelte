@@ -37,73 +37,93 @@
 <main class:invisible={visible === false}>
     <div class="sk-wrapper">
         <div id="frontEnd-wrapper">
-          <h2 class="sk-title">Front end</h2>
+          <h1 class="sk-title">Front end</h1>
           <div>
-            <img class="icon" src="/skills/imgs/React-icon.svg.png">
+            <img class="icon" alt="Skill"src="/skills/imgs/CSS3_logo_and_wordmark.svg.png">
+            <h3 class="skill-item">CSS</h3>
+          </div>
+          <div>
+            <img class="icon" alt="Skill"src="/skills/imgs/React-icon.svg.png">
             <h3 class="skill-item">React</h3>
           </div>
           <div>
-            <img class="icon" src="/skills/imgs/React-icon.svg.png">
-            <h3 class="skill-item">React-Router</h3>
+            <img class="icon" alt="Skill"src="/skills/imgs/ThreejsLogo.svg">
+            <h3 class="skill-item">ThreeJs</h3>
           </div>
           <div>
-            <img class="icon" src="/skills/imgs/React-icon.svg.png">
-            <h3 class="skill-item">React-three-fiber</h3>
-          </div>
-          <div>
-            <img class="icon" src="/skills/imgs/jquery-512.png">
+            <img class="icon" alt="Skill"src="/skills/imgs/jquery-512.png">
             <h3 class="skill-item">Jquery</h3>
           </div>
           <div>
-            <img class="icon" src="/skills/imgs/800px-Svelte_Logo.svg.png">
+            <img class="icon" alt="Skill"src="/skills/imgs/angularLogo.svg">
+            <h3 class="skill-item">Angular</h3>
+          </div>
+          <div>
+            <img class="icon" alt="Skill"src="/skills/imgs/800px-Svelte_Logo.svg.png">
             <h3 class="skill-item">Svelte</h3>
+          </div>
+          <div>
+            <img class="icon" alt="Skill"src="/skills/imgs/.NETLogo.png">
+            <h3 class="skill-item">.NET</h3>
+          </div>
+          <div>
+            <img class="icon" alt="Skill"src="/skills/imgs/BlazorLogo.png">
+            <h3 class="skill-item">Blazor</h3>
           </div>
         </div>
   
         <div id="backEnd-wrapper">
-          <h2 class="sk-title">Back end</h2>
+          <h1 class="sk-title">Back end</h1>
           <div>
-            <img class="icon" src="/skills/imgs/mongodb-leaf_256x256@2x.png">
+            <img class="icon" alt="Skill"src="/skills/imgs/mongodb-leaf_256x256@2x.png">
             <h3 class="skill-item">MongoDB</h3>
           </div>
           <div>
-            <img class="icon" src="/skills/imgs/mongodb-leaf_256x256@2x.png">
+            <img class="icon" alt="Skill"src="/skills/imgs/mongodb-leaf_256x256@2x.png">
             <h3 class="skill-item">Mongoose</h3>
           </div>
           <div>
-            <h2 class="icon" id="EX">EX</h2>
+            <h2 class="icon" alt="Skill"id="EX">EX</h2>
             <h3 class="skill-item">Express</h3>
           </div>
           <div>
-            <img class="icon" src="/skills/imgs/Postman Logo.png">
+            <img class="icon" alt="Skill"src="/skills/imgs/Postman Logo.png">
             <h3 class="skill-item">Postman</h3>
           </div>
           <div>
-            <img class="icon" src="/skills/imgs/Heroku logo.jpg">
+            <img class="icon" alt="Skill"src="/skills/imgs/Heroku logo.jpg">
             <h3 class="skill-item">Heroku</h3>
+          </div>
+          <div>
+            <img class="icon" alt="Skill"src="/skills/imgs/JavaLogo.png">
+            <h3 class="skill-item">Java</h3>
+          </div>
+          <div>
+            <img class="icon" alt="Skill"src="/skills/imgs/SpringbootLogo.svg">
+            <h3 class="skill-item">Spring boot</h3>
           </div>
         </div>
   
         <div id="Fundamentals-wrapper">
-          <h2 class="sk-title">Funamentals</h2>
+          <h1 class="sk-title">Full Stack</h1>
           <div>
-            <img class="icon" src="/skills/imgs/800px-HTML5_logo_and_wordmark.svg.png">
-            <h3 class="skill-item">HTML</h3>
+            <img class="icon" alt="Skill"src="/skills/imgs/800px-WHATWG_JavaScript_logo.svg.png">
+            <h3 class="skill-item">JavaScript</h3>
           </div>
           <div>
-            <img class="icon" src="/skills/imgs/CSS3_logo_and_wordmark.svg.png">
-            <h3 class="skill-item">CSS</h3>
+            <img class="icon" alt="Skill"src="/skills/imgs/TypescriptLogo.svg">
+            <h3 class="skill-item">TypeScript</h3>
           </div>
           <div>
-            <img class="icon" src="/skills/imgs/800px-WHATWG_JavaScript_logo.svg.png">
-            <h3 class="skill-item">Javascript</h3>
+            <img class="icon" alt="Skill"src="/skills/imgs/C-Sharp.svg">
+            <h3 class="skill-item">C#</h3>
           </div>
           <div>
-            <img class="icon" src="/skills/imgs/800px-Python-logo-notext.svg.png">
+            <img class="icon" alt="Skill"src="/skills/imgs/800px-Python-logo-notext.svg.png">
             <h3 class="skill-item">Python</h3>
           </div>
           <div>
-            <img class="icon" src="/skills/imgs/GitHub-Mark-EDIT.png">
+            <img class="icon" alt="Skill"src="/skills/imgs/GitHub-Mark-EDIT.png">
             <h3 class="skill-item">Git bash/Github</h3>
           </div>
         </div>
@@ -124,6 +144,7 @@
         transition: 1s;
         z-index: 4;
         height: 100%;
+        min-height: 900px;
         width: 100%
     }
 
@@ -135,6 +156,7 @@
 
     #frontEnd-wrapper {
     position: absolute;
+    display: inline-block;
     top: 5%;
     left: 10%;
     transform: translate(-10%, -5%);
@@ -142,6 +164,7 @@
 
 #backEnd-wrapper {
     position: absolute;
+    display: inline-block;
     top: 5%;
     left: 45%;
     transform: translate(-45%, -5%);
@@ -149,6 +172,7 @@
 
 #Fundamentals-wrapper {
     position: absolute;
+    display: inline-block;
     top: 5%;
     right: 10%;
     transform: translate(-10%, -5%);
@@ -185,7 +209,7 @@
 }
 
 #back {
-    position: absolute;
+    position: fixed;
     bottom: 5px;
     left: 50%;
     transform: translateX(-50%);
