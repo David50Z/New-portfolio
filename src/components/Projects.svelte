@@ -39,15 +39,16 @@
 
 <main class:invisible={visible === false}>
     <div id="mainContainer">
-        <div id="netflixContainer" class="projectContainer">
-            <a href="https://david50z.github.io/Project-2/">
+	    
+	 <div id="Code-Space" class="projectContainer">
+            <a href="https://code-space-client.netlify.app/">
                 <div class="background"></div>
                 <div class="projectTitleContainer">
-                    <h2 class="projectTitle" >Netflix imitation</h2>
+                    <h2 class="projectTitle" >Code-Space</h2>
                 </div>
             </a>
 
-                <img class="projectPic" src="projects/Screenshot (173).png" alt="netflix imitation pic">
+                <img class="projectPic" src="projects/code-space-client.netlify.app_home_Img.png" alt="Web Space pic">
 
         </div>
 
@@ -85,16 +86,16 @@
                 <img class="projectPic" src="projects/Screenshot (219).png" alt="toDoList pic">
 
         </div>
-
-        <div id="Code-Space" class="projectContainer">
-            <a href="https://code-space-client.netlify.app/">
+	    
+	<div id="netflixContainer" class="projectContainer">
+            <a href="https://david50z.github.io/Project-2/">
                 <div class="background"></div>
                 <div class="projectTitleContainer">
-                    <h2 class="projectTitle" >Code-Space</h2>
+                    <h2 class="projectTitle" >Netflix imitation</h2>
                 </div>
             </a>
 
-                <img class="projectPic" src="projects/code-space-client.netlify.app_home_Img.png" alt="Web Space pic">
+                <img class="projectPic" src="projects/Screenshot (173).png" alt="netflix imitation pic">
 
         </div>
 
