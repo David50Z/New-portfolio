@@ -76,7 +76,7 @@
         </div>
 
         <div id="toDoList" class="projectContainer">
-            <a href="https://deft-moonbeam-e0bc2c.netlify.app/">
+            <a href="https://3d-todo-list.netlify.app/">
                 <div class="background"></div>
                 <div class="projectTitleContainer">
                     <h2 class="projectTitle" >3D To do list</h2>
