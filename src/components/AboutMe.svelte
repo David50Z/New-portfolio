@@ -40,7 +40,7 @@
 <main class:invisible={visible === false}>
     <div id="mainContainer">
         <img src="/imgs/My best hair cut.jpg" alt="Profile pic">
-        <p>Full stack software engineer with a passion for  developing visual designs and interactive logic with the user in mind to engage the user interface. Drive to tackle complex challenges to improve the functionality of web applications to increase engagement and support the overall company structure. Motivated to learn and gain new skill sets to adopt current societal technologies in order to develop applications to solve real world problems and engage users.</p>
+        <p>I am a full-stack developer with a passion for learning and teaching looking to challenge myself and grow as a developer. My goal is to eventually be teaching junior developers, and work on a project or for a company that truly helps people!</p>
         <h1 id="back" on:click={back}>back</h1>
     </div>
 
