@@ -63,12 +63,8 @@
             <h3 class="skill-item">Svelte</h3>
           </div>
           <div>
-            <img class="icon" alt="Skill"src="/skills/imgs/.NETLogo.png">
-            <h3 class="skill-item">.NET</h3>
-          </div>
-          <div>
             <img class="icon" alt="Skill"src="/skills/imgs/BlazorLogo.png">
-            <h3 class="skill-item">Blazor</h3>
+            <h3 class="skill-item">Blazor.NET</h3>
           </div>
         </div>
   
@@ -77,10 +73,6 @@
           <div>
             <img class="icon" alt="Skill"src="/skills/imgs/mongodb-leaf_256x256@2x.png">
             <h3 class="skill-item">MongoDB</h3>
-          </div>
-          <div>
-            <img class="icon" alt="Skill"src="/skills/imgs/mongodb-leaf_256x256@2x.png">
-            <h3 class="skill-item">Mongoose</h3>
           </div>
           <div>
             <h2 class="icon" alt="Skill"id="EX">EX</h2>
@@ -95,12 +87,16 @@
             <h3 class="skill-item">Heroku</h3>
           </div>
           <div>
-            <img class="icon" alt="Skill"src="/skills/imgs/JavaLogo.png">
-            <h3 class="skill-item">Java</h3>
-          </div>
-          <div>
             <img class="icon" alt="Skill"src="/skills/imgs/SpringbootLogo.svg">
             <h3 class="skill-item">Spring boot</h3>
+          </div>
+          <div>
+            <img class="icon" alt="Skill"src="/skills/imgs/.NETLogo.png">
+            <h3 class="skill-item">ASP.NET Web API</h3>
+          </div>
+          <div>
+            <img class="icon" alt="Skill"src="/skills/imgs/fastapi logo.svg">
+            <h3 class="skill-item">Fast API</h3>
           </div>
         </div>
   
@@ -119,12 +115,12 @@
             <h3 class="skill-item">C#</h3>
           </div>
           <div>
-            <img class="icon" alt="Skill"src="/skills/imgs/800px-Python-logo-notext.svg.png">
-            <h3 class="skill-item">Python</h3>
+            <img class="icon" alt="Skill"src="/skills/imgs/JavaLogo.png">
+            <h3 class="skill-item">Java</h3>
           </div>
           <div>
-            <img class="icon" alt="Skill"src="/skills/imgs/GitHub-Mark-EDIT.png">
-            <h3 class="skill-item">Git bash/Github</h3>
+            <img class="icon" alt="Skill"src="/skills/imgs/800px-Python-logo-notext.svg.png">
+            <h3 class="skill-item">Python</h3>
           </div>
         </div>
       </div>

@@ -41,10 +41,16 @@
     <div id="mainContainer">
         <img src="/imgs/My best hair cut.jpg" alt="Profile pic">
         <p>I am a full-stack developer with a passion for learning and teaching looking to challenge myself and grow as a developer. My goal is to eventually be teaching junior developers, and work on a project or for a company that truly helps people!</p>
-        <h1 id="back" on:click={back}>back</h1>
+        
     </div>
 
 </main>
+
+<div class="backContainer">
+    <div class="backContainer2">
+        <h1 id="back" on:click={back}>back</h1>
+    </div>
+</div>
 
 <style>
 
@@ -65,11 +71,11 @@
 
 
     #mainContainer {
-        position: absolute;
+        position: relative;
         display: grid;
-        grid-template-areas: "img" "text" "back";
+        grid-template-areas: "img" "text";
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 3fr 1px 1fr;
+        grid-template-rows: 3fr 1px;
         gap: 20px;
     }
 
@@ -104,22 +110,30 @@
         padding: 0;
     }
 
+    .backContainer {
+        position: absolute;
+        height: 100vh;
+        width: 100vw;
+
+    }
+
+    .backContainer2 {
+        position: relative;
+        height: 100vh;
+        width: 100vw;
+
+    }
+
     #back {
-        grid-area: "back";
-        grid-row-start: 2;
-        grid-row-end: 3;
-        grid-column-start: 1;
-        grid-column-end: 3;
+        position: absolute;
         color: white;
         text-align: center;
-        position: relative;
-        margin-top: 50px;
-        top: 90%;
-        font-size: 40px;
         left: 50%;
-        transform: translate(-50%, -95%);
+        transform: translateX(-50%);
+        bottom: 10px;
         cursor: pointer;
         font-family: 'Courier New', monospace;
+        z-index: 10;
     }
 
     .invisible {
@@ -133,9 +147,7 @@
             font-size: 20px;
         }
 
-        #back {
-            top: 97%
-        }
+
     }
 
     @media only screen and (max-width: 1100px) {
@@ -144,9 +156,7 @@
             margin-left: 20px;
         }
 
-        #back {
-            top: 97%
-        }
+
     }
 
     @media only screen and (max-width: 860px) { 
@@ -161,7 +171,7 @@
         }
 
         #back {
-            margin-top: 200px;
+            
             font-size: 60px;
 
         }
@@ -190,12 +200,7 @@
             margin-left: 20px;
         }
 
-        #back {
-            position: relative;
-            grid-row-start: 3;
-            grid-row-end: 4;
-            margin: 20px;
-        }
+
     }
 
     @media only screen and (max-width: 300px) { 
@@ -204,8 +209,7 @@
         }
 
         #back {
-            margin: 0;
-            margin-top: 20px;
+
             font-size: 35px;
         }
     }

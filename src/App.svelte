@@ -303,6 +303,9 @@
 
 	canvas {
 		overflow-y: hidden;
+		position: absolute;
+		height: 100vh;
+		width: 100vw;
     	transition: opacity 0.5s;
 		position: fixed;
 		top: 0;
