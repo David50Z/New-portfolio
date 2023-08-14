@@ -40,7 +40,7 @@
 <main class:invisible={visible === false}>
     <div id="mainContainer">
         <img src="/imgs/My best hair cut.jpg" alt="Profile pic">
-        <p>I am a full-stack developer with a passion for learning and teaching looking to challenge myself and grow as a developer. My goal is to eventually be teaching junior developers, and work on a project or for a company that truly helps people!</p>
+        <p>I am a Full-Stack Software Engineer with experience in front-end and back-end technologies. I am committed to continuous learning and growth through technical challenges. My long-term goal is to teach junior developers and work on projects that make a positive impact in the world!</p>
         
     </div>
 
